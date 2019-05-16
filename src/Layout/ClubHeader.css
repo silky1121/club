@@ -1,0 +1,25 @@
+.Container {
+  width: 100px;
+  border-bottom: 1px solid #d1d8e4;
+}
+
+.Element {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ShortCut {
+  order: 1;
+  width: 100%;
+  height: 20px;
+  text-align: right;
+}
+
+.Logo {
+  order: 2;
+  width: 200px;
+  height: 80px;
+}
